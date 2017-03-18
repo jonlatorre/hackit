@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-# `angular-seed` — the seed for AngularJS apps
+# Hackit
+
+Hackit game for my 2 years at Irontec
 
 This project is an application skeleton for a typical [AngularJS][angularjs] web app. You can use it
 to quickly bootstrap your angular webapp projects and dev environment for these projects.
@@ -294,7 +295,4 @@ For more information on AngularJS please check out [angularjs.org][angularjs].
 [selenium]: http://docs.seleniumhq.org/
 [travis]: https://travis-ci.org/
 [travis-docs]: https://docs.travis-ci.com/user/getting-started
-=======
-# hackit
-Hackit game for my 2 years at Irontec
->>>>>>> refs/remotes/origin/master
+
