@@ -1,15 +1,15 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('myApp.easy', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {
-    templateUrl: 'view1/view1.html',
-    controller: 'View1Ctrl'
+  $routeProvider.when('/easy', {
+    templateUrl: 'easy/easy.html',
+    controller: 'EasyCtrl'
   });
 }])
 
-.controller('View1Ctrl', ['$scope', function($scope) {
+.controller('EasyCtrl', ['$scope', function($scope) {
     $scope.name = '';
     $scope.names = [{name:"Chris"}, {name:"Calvin"}];
     $scope.addName = function() {
